@@ -1,10 +1,10 @@
 <?php
 
-namespace Lab404\Tests;
+namespace LithiumDev\Tests;
 
-use Lab404\Impersonate\ImpersonateServiceProvider;
-use Lab404\Tests\Stubs\Models\User;
-use Lab404\Tests\Stubs\Models\OtherUser;
+use LithiumDev\Impersonate\ImpersonateServiceProvider;
+use LithiumDev\Tests\Stubs\Models\User;
+use LithiumDev\Tests\Stubs\Models\OtherUser;
 use Orchestra\Database\ConsoleServiceProvider;
 
 class TestCase extends \Orchestra\Testbench\TestCase

@@ -1,16 +1,16 @@
 <?php
 
-namespace Lab404\Impersonate\Services;
+namespace LithiumDev\Impersonate\Services;
 
 use Exception;
 use Illuminate\Contracts\Auth\Guard;
 use Illuminate\Contracts\Auth\UserProvider;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Foundation\Application;
-use Lab404\Impersonate\Events\LeaveImpersonation;
-use Lab404\Impersonate\Events\TakeImpersonation;
-use Lab404\Impersonate\Exceptions\InvalidUserProvider;
-use Lab404\Impersonate\Exceptions\MissingUserProvider;
+use LithiumDev\Impersonate\Events\LeaveImpersonation;
+use LithiumDev\Impersonate\Events\TakeImpersonation;
+use LithiumDev\Impersonate\Exceptions\InvalidUserProvider;
+use LithiumDev\Impersonate\Exceptions\MissingUserProvider;
 
 class ImpersonateManager
 {

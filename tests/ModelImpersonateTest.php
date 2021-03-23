@@ -1,8 +1,8 @@
 <?php
 
-namespace Lab404\Tests;
+namespace LithiumDev\Tests;
 
-use Lab404\Impersonate\Services\ImpersonateManager;
+use LithiumDev\Impersonate\Services\ImpersonateManager;
 
 class ModelImpersonateTest extends TestCase
 {

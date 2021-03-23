@@ -1,10 +1,10 @@
 <?php
 
-namespace Lab404\Tests;
+namespace LithiumDev\Tests;
 
 use Illuminate\Http\Request;
-use Lab404\Tests\Stubs\Models\User;
-use Lab404\Impersonate\Middleware\ProtectFromImpersonation;
+use LithiumDev\Tests\Stubs\Models\User;
+use LithiumDev\Impersonate\Middleware\ProtectFromImpersonation;
 
 class MiddlewareProtectFromImpersonationTest extends TestCase
 {

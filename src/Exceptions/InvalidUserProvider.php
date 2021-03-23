@@ -1,6 +1,6 @@
 <?php
 
-namespace Lab404\Impersonate\Exceptions;
+namespace LithiumDev\Impersonate\Exceptions;
 
 use Throwable;
 

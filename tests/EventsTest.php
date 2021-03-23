@@ -1,14 +1,14 @@
 <?php
 
-namespace Lab404\Tests;
+namespace LithiumDev\Tests;
 
 use Illuminate\Auth\Events\Login;
 use Illuminate\Auth\Events\Logout;
 use Illuminate\Support\Facades\Event;
-use Lab404\Impersonate\Events\LeaveImpersonation;
-use Lab404\Impersonate\Events\TakeImpersonation;
-use Lab404\Impersonate\Services\ImpersonateManager;
-use Lab404\Tests\Stubs\Models\User;
+use LithiumDev\Impersonate\Events\LeaveImpersonation;
+use LithiumDev\Impersonate\Events\TakeImpersonation;
+use LithiumDev\Impersonate\Services\ImpersonateManager;
+use LithiumDev\Tests\Stubs\Models\User;
 
 class EventsTest extends TestCase
 {

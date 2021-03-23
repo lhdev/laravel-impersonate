@@ -1,9 +1,9 @@
 <?php
 
-namespace Lab404\Impersonate\Models;
+namespace LithiumDev\Impersonate\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Lab404\Impersonate\Services\ImpersonateManager;
+use LithiumDev\Impersonate\Services\ImpersonateManager;
 
 trait Impersonate
 {

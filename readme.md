@@ -1,7 +1,5 @@
 # Laravel Impersonate
 
-[![Build Status](https://travis-ci.org/404labfr/laravel-impersonate.svg?branch=master)](https://travis-ci.org/404labfr/laravel-impersonate) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/404labfr/laravel-impersonate/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/404labfr/laravel-impersonate/?branch=master)
-
 **Laravel Impersonate** makes it easy to **authenticate as your users**. Add a simple **trait** to your **user model** and impersonate as one of your users in one click.
  
 - [Requirements](#requirements)
@@ -38,18 +36,18 @@
 
 - Require it with Composer:
 ```bash
-composer require lab404/laravel-impersonate
+composer require lithiumdev/laravel-impersonate
 ```
 
 - Add the service provider at the end of your `config/app.php`:
 ```php
 'providers' => [
     // ...
-    Lab404\Impersonate\ImpersonateServiceProvider::class,
+    LithiumDev\Impersonate\ImpersonateServiceProvider::class,
 ],
 ```
 
-- Add the trait `Lab404\Impersonate\Models\Impersonate` to your **User** model.
+- Add the trait `LithiumDev\Impersonate\Models\Impersonate` to your **User** model.
 
 ## Simple usage
 
@@ -252,6 +250,6 @@ vendor/bin/phpunit
 
 This package adds broader functionality, including Blade directives to allow you to override analytics and other tracking events when impersonating, fire events based on impersonation status, and more. Brief discussion at [issues/5](https://github.com/404labfr/laravel-impersonate/issues/5)
 
-## Licence
+## License
 
 MIT

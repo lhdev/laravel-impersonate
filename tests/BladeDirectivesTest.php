@@ -1,8 +1,8 @@
 <?php
 
-namespace Lab404\Tests;
+namespace LithiumDev\Tests;
 
-use Lab404\Tests\Stubs\Models\User;
+use LithiumDev\Tests\Stubs\Models\User;
 
 class BladeDirectivesTest extends TestCase
 {
