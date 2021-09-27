@@ -53,7 +53,7 @@ class ImpersonateController extends Controller
             if ($this->manager->take($request->user(), $userToImpersonate, $guardName)) {
                 $takeRedirect = $this->manager->getTakeRedirectTo();
                 if ($takeRedirect !== 'back') {
-                    return redirect()->to($takeRedirect);
+                    return redirect()->route($takeRedirect);
                 }
             }
         }
@@ -74,7 +74,7 @@ class ImpersonateController extends Controller
 
         $leaveRedirect = $this->manager->getLeaveRedirectTo();
         if ($leaveRedirect !== 'back') {
-            return redirect()->to($leaveRedirect);
+            return redirect()->route($leaveRedirect);
         }
         return redirect()->back();
     }

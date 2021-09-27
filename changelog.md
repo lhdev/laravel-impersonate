@@ -1,5 +1,12 @@
 # Laravel Impersonate Changelog
 
+## 1.7.3
+
+### Changed
+
+- Changed $takeRedirect and $leaveRedirect to route based redirects instead of URI
+
+
 ## 1.7.2
 
 ### Added
